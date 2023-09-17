@@ -72,3 +72,25 @@ class Segitiga {
 const segitiga = new Segitiga(28, 20, 12);
 console.log(segitiga.keliling());
 console.log(segitiga.luas());
+
+class Trapesium {
+  constructor(a, b, c, d, t) {
+    this.a = a;
+    this.b = b;
+    this.c = c;
+    this.d = d;
+    this.t = t;
+  }
+
+  keliling() {
+    return this.a + this.b + this.c + this.d;
+  }
+
+  luas() {
+    return 0.5 * (a + b) * this.t;
+  }
+}
+
+const trapesium = new Trapesium(2, 3, 4, 5, 6);
+console.log(trapesium.keliling());
+console.log(trapesium.luas());
